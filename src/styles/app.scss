@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    color: rgb(54, 54, 54)
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.App{
+ transition:all 0.5s ease;
+}
+
+.Library-active{
+    margin-left: 30%;
+}
+
+@import "./song.scss";
+@import "./player.scss";
+@import "./library.scss";
+@import "./nav.scss";
